@@ -1,5 +1,5 @@
 : empty		s" ---marker--- marker ---marker---" evaluate ;
-: edit		s" vim test.fs" system ;
+: edit		s" emacs test.fs" system ;
 : run		s" test.fs" included ;
 : ecr		edit run ;
 
