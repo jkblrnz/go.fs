@@ -3,7 +3,7 @@ empty
 
 ( tests )
 : balanced? depth 0 = -1 = ;
-: out_balance balanced? if s" (Is balanced)" else s" (Is unblanaced)" endif type ;
+: out_balance balanced? if s" (Balanced? pass)" else s" (Balanced? fail)" endif type ;
 
 ( test list )
 : test_out out_balance ;
